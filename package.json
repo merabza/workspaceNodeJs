@@ -1,14 +1,21 @@
 {
   "name": "@merabza/workspace",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "workspaceNodeJs",
   "dependencies": {
-    "@linclark/pkg": "^1.0.2"
+    "bl": "^1.2.2",
+    "node-datetime": "^2.0.6",
+    "strftime": "^0.10.0",
+    "through2-map": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/merabza/workspaceNodeJs"
   }
 }
